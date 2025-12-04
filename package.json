@@ -2,5 +2,31 @@
   "dependencies": {
     "express": "^5.2.1",
     "init": "^0.1.2"
+  },
+  "name": "002-gerenciador-de-pedidos-de-lanche",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardoberettarod/002-gerenciador-de-pedidos-de-lanche.git"
+  },
+  "keywords": [],
+  "author": "Eduardo",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/eduardoberettarod/002-gerenciador-de-pedidos-de-lanche/issues"
+  },
+  "homepage": "https://github.com/eduardoberettarod/002-gerenciador-de-pedidos-de-lanche#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }
